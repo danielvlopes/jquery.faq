@@ -1,0 +1,39 @@
+h1. jQuery Faq
+
+Convert tags in to collapsible faqs
+
+h2. Usage
+
+In HTML:
+
+<pre>
+  <code>
+    <ul id="faq">
+      <li>
+        <h3>How do I do that?</h3>
+        <div class="answer">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation. </p>
+          <p>Duis aute irure dolor in reprehenderit.</p>
+        </div>
+      </li>
+    </ul>
+  </code>
+</pre>
+
+In JS:
+
+<pre>
+  <code>
+    $(document).ready(function() {
+      $("#faq").faq();
+      );
+    });
+  </code>
+</pre>
+
+Optional parmenters {questionTag: 'h3', answerTag: 'div', openClass: 'open'}
+
+h2. By
+
+Daniel Lopes
