@@ -27,7 +27,6 @@ In JS:
   <code>
     $(document).ready(function() {
       $("#faq").faq();
-      );
     });
   </code>
 </pre>
